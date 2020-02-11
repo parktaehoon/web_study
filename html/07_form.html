@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <title>폼 관련 요소</title>
+</head>
+<body>
+  <h1>폼 관련 요소</h1>
+  <form action="https://formspree.io/xvokylpq" method="POST">
+    <fieldset>
+      <legend>상세정보</legend>
+      <div>
+        <label for="userName">이름</label>
+        <input type="text" id="userName" name="UserName" required placeholder="이름을 입력하세요.">
+     </div>
+     <div>
+      <label for="userEmail">이메일</label>
+      <input type="email" id="userEmail" name="UserEmail" required placeholder="이메일을 입력하세요.">
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>리뷰</legend>
+      <div>
+        <label for="siteKnow">사이트를 알게 된 경위는?</label>
+        <select name="SiteKnow" id="siteKnow">
+          <option value="지인추천">지인추천</option>
+          <option value="검색">검색</option>
+          <option value="신문 또는 잡지">신문/잡지</option>
+        </select>
+      </div>
+      <div>
+        <p>다시 방문할래요?</p>
+        <input type="radio" id="yes" name="Visit" value="예"> <label for="yes">예</label>
+        <input type="radio" id="no" name="Visit" value="아니오"> <label for="No">아니오</label>
+      </div>
+      <div>
+        <label for="">의견</label><br>
+        <textarea name="Message" id="comment" cols="30" rows="10"></textarea>
+      </div>
+      <div>
+        <input type="checkbox" id="newsLetter" name="NewsLetter" value="구독신청">
+        <label for="">뉴스레터 구독</label>
+      </div>
+    </fieldset>
+    <button type="submit">전송</button>
+  </form>
+</body>
+</html>
