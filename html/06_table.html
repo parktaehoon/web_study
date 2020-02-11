@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <title>테이블 요소</title>
+</head>
+<body>
+  <h1>테이블 요소</h1>
+  <h2>테이블 기본 구조</h2>
+  <table border="1">
+    <tr>
+      <th scope="col">구분</th>
+      <th scope="col">토요일</th>
+      <th scope="col">일요일</th>
+    </tr>
+    <tr>
+      <th scope="row">티켓판매</th>
+      <td>120</td>
+      <td>135</td>
+    </tr>
+      <th scope="row">매출</th>
+      <td>$600</td>
+      <td>$675</td>
+  </table>
+  <h2>테이블 셀 병합</h2>
+  <table border="1">
+    <tr>
+      <th colspan="2" scope="colgroup">구분</th>
+      <th scope="col">MBC</th>
+      <th scope="col">KBS</th>
+    </tr>
+    <tr>
+      <th rowspan="2" scope="rowgroup">평일</th>
+      <th scope="row">오전</th>
+      <td>뉴스</td>
+      <td>예능</td>
+    </tr>
+    <tr>
+      <th scope="row">오후</th>
+      <td>뉴스</td>
+      <td>예능</td>
+    </tr>
+  </table>
+</body>
+</html>
