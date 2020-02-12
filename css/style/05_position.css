@@ -1,0 +1,31 @@
+h1{
+  background-color: yellow;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 0;
+  z-index: 100;
+}
+h2{
+  background-color: pink;
+  position: relative;
+  top: 100px;
+  left: 20px;
+  z-index: 200;
+}
+h3{
+  background-color: lightgreen;
+  width : 500px;
+  height : 200px;
+  position: relative;
+}
+span{
+  background-color: orange;
+  position: absolute;
+  right : 0;
+  bottom: 0;
+}
+p{
+  background-color: skyblue;
+
+}
