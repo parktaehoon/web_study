@@ -1,0 +1,39 @@
+.family{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.size{
+  font-size: 2em;
+}
+.weight{
+  font-weight: 700;
+}
+.style{
+  font-style: italic;
+}
+.caps{
+  font-variant: small;
+}
+.line{
+  line-height: 1.5;
+}
+.transform{
+  text-transform: capitalize;
+}
+.decoration{
+  text-decoration: underline;
+}
+.spacing{
+  word-spacing: 2em;
+  letter-spacing: 1em;
+}
+.align{
+  text-align: center;
+  background-color: yellow;
+}
+.indent{
+  text-indent: 5em;
+}
+.shadow{
+  font-size: 3em;
+  text-shadow: 0px 0px 5px red;
+}
