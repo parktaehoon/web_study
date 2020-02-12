@@ -36,4 +36,5 @@
 .shadow{
   font-size: 3em;
   text-shadow: 0px 0px 5px red;
+  border: 1px dotted red;
 }
