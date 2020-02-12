@@ -1,0 +1,23 @@
+body{
+  font-size: 10px;
+}
+h1{
+  border: 1px dotted red;
+}
+strong{
+  border: inherit;
+}
+
+
+body p.box{
+  color: blue;
+}
+p.box{
+  color: green;
+}
+p{
+  color: orange!important;
+}
+#note{
+  color: purple!important;
+} 
