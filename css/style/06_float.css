@@ -1,0 +1,27 @@
+.wrapper{
+  background-color: red;
+  border: 2px solid blue;
+  overflow: hidden;
+}
+.box1{
+  background-color: tan;
+  float: left;
+}
+.box2{
+  background-color: yellow;
+  float: left;
+}
+.box3{
+  background-color: lightsalmon;
+  float: left;
+}
+.box4{
+  background-color: skyblue;
+  float: left;
+}
+
+.container{
+  clear: both;
+  background-color: pink;
+  border: 2px solid green;
+}
